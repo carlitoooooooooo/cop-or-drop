@@ -85,16 +85,20 @@ body {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  position: relative;
+  z-index: 2;
 }
 
 .auth-box {
   width: 100%;
   max-width: 360px;
-  background: var(--bg2);
+  background: rgba(0, 0, 80, 0.95);
   border: 3px solid;
   border-color: var(--bevel-light) var(--bevel-dark) var(--bevel-dark) var(--bevel-light);
   padding: 32px 28px;
   text-align: center;
+  position: relative;
+  z-index: 3;
 }
 
 .auth-box h1 {
